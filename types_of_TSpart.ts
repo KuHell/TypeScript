@@ -47,10 +47,3 @@ function playerMaker(name :string) :Player { //()안에는 string type이 존재
 const Go = playerMaker()  //error string타입의 name을 넣어 줘야 실행 가능
 const GoGo = playerMaker('kuhell')
 GoGo.age = 25
-
-
-//화살표 함수
-const playerMaker1 = (name :string) :Player => ({name})
-const GoGoGo = playerMaker1('kuhell')
-GoGoGo.age = 25
-GoGoGo.name = 30  //error name의 type = string
