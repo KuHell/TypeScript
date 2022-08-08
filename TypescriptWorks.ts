@@ -8,4 +8,4 @@ d.push('error')
 const player = {
   name: 'kuhell'
 }
-player.hello()
+player.hello() 
