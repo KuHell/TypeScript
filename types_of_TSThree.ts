@@ -23,6 +23,3 @@ function hello2(name :string | number) {
     name
   }
 }
-
-type Add = (a :number, b :number) => number;
-const add :Add = (a, b) => a + b
