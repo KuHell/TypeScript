@@ -6,6 +6,6 @@ d.push(1)
 d.push('error')
 
 const player = {
-  name: 'kuhell'
+  name: 'hunsman'
 }
 player.hello() 
